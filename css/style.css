@@ -1,0 +1,83 @@
+#grillePacman{
+
+    display: grid;
+    grid-template-columns: repeat(19,40px);
+    grid-template-rows: repeat(22, 40px);
+    margin: 0 auto;
+    
+
+  }
+
+
+
+.mur{
+    background-image: url(./img/imgMur.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.sol{
+  
+    background-color: black;
+}
+
+.bonbon{
+    background-image: url(./img/bille.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+#pacman{
+    background-image: url(./img/pacman4.gif);
+}
+
+
+.ensemble{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+
+#fantome{
+    background-image: url(./img/fantome0.gif);
+}
+
+
+
+body{
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+margin: 0 auto;
+
+
+}
+
+
+
+#fantome1{
+    background-image: url(./img/fantome1.gif);
+}
+
+
+#fantome2{
+    background-image: url(./img/fantome2.gif);
+}
+
+
+#fantome3{
+    background-image: url(./img/fantome3.gif);
+}
